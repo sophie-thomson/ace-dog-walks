@@ -87,3 +87,44 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
  
 ## Design
 ---
+
+## Testing
+---
+
+### Validator Testing
+
+- HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+
+- CSS
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+### Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+
+
+## Deployment
+---
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+
+## Credits
+---
+
+### Content
+
+- Sections of html and css code for the Home Page was taken from the Code Institute Love Running walkthrough project.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home page and contact form are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
