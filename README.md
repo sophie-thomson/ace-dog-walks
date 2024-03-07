@@ -1,5 +1,4 @@
 # Ace Dogwalks
----
 
 Ace Dogwalks is a website for people wanting to find out more about the dog walking options offered by Ace Dogwalks, the cost of these walks and how to book a walk or find out more.
 
@@ -7,25 +6,23 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 
 ![Placeholder for responsive mockup image]
 
-
 ## Features
----
 
 ### Site Wide
 
-*** Favicon ***
+***Favicon***
 - A favicon of the dog graphic within the Ace Dogwalks logo will be featured on the tab header so it is easily identifiable among multiple tabs.
 
 ![Placeholder for screenshot of favicon image on a tab]
 
-*** Navigation Menu ***
+***Navigation Menu***
 - Makes it easy for the user to move around the site and find relevant information.
 - Includes links to each page of the site (Home, Gallery and Contact). 
 - Responsive design to work across devices of different sizes (uses less space on smaller devices).
 
 ![Placeholder for screenshot of navigation menu]
 
-*** Footer ***
+***Footer***
 
 - Contains links to the Ace Dogwalks social media profiles so they can follow or find further information.
 - These links open in a new tab and include accessibillity conventions such as aria labels.
@@ -34,7 +31,7 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 
 ### Home Page (index.html)
 
-*** Hero Image ***
+***Hero Image***
 
 - Includes cover text with tagline for priorty message to users.
 - Landscape image to convey happy dog on a walk in a natural outdoor setting.
@@ -42,7 +39,7 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 
 ![Placeholder for screenshot of hero image]
 
-*** Why Choose Ace Dogwalks ***
+***Why Choose Ace Dogwalks***
 
 - Information on Hannah Brookes and her approach to dog-walking with four sub-headings under two main areas: Practical Reasons (safety focus and convenience) and Personal Reasons (fun-loving and great exercise).
 - Includes image of smiling Hannah in her element with happy dog/s.
@@ -50,7 +47,7 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 
 ![Placeholder for screenshot of Why Book with Ace Dogwalks section]
 
-*** Walk Options ***
+***Walk Options***
 
 - Examples of walk locations to provide dog owner with an idea of the kinds of walks available.
 - Background image of each walk location with cover text providing details and walk type icon.
@@ -60,7 +57,7 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 
 ### Gallery Page (gallery.html)
 
-*** Gallery ***
+***Gallery***
 
 - This image gallery will include a variety of images to create a hall of fame of dogs that already enjoy Ace Dogwalks.
 - Images will be formatted using the masory layout and are responsive so that they look good on devices of different sizes. 
@@ -86,10 +83,10 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 - Add video content to gallery page. 
  
 ## Design
----
+
 
 ## Testing
----
+
 
 ### Validator Testing
 
@@ -105,7 +102,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 
 ## Deployment
----
+
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
@@ -117,7 +114,7 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 ## Credits
----
+
 
 ### Content
 
