@@ -85,7 +85,11 @@ The Ace Dog Walks site aims to help dog owners to feel reassured that their pet 
  
 ## Design
 
+### Homepage Layout
+
 ![Mobile wireframe design of homepage](/assets/images/mobile-homepage-wireframe.png)
+![Mobile wireframe design of homepage](/assets/images/tablet-homepage-wireframe.png)
+![Mobile wireframe design of homepage](/assets/images/laptop-homepage-wireframe.png)
 
 ## Testing
 
