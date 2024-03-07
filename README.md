@@ -1,8 +1,8 @@
-# Ace Dogwalks
+# Ace Dog Walks
 
-Ace Dogwalks is a website for people wanting to find out more about the dog walking options offered by Ace Dogwalks, the cost of these walks and contact Hannah to book a walk or find out more.
+Ace Dog Walks is a website for people wanting to find out more about the dog walking options offered by Ace Dog Walks, the cost of these walks and contact Hannah to book a walk or find out more.
 
-The Ace Dogwalks site aims to help dog owners to feel reassured that their pet will be well looked after, that they will have a fun and energetic walk and that they are going to get value for money.
+The Ace Dog Walks site aims to help dog owners to feel reassured that their pet will be well looked after, that they will have a fun and energetic walk and that they are going to get value for money.
 
 ![Placeholder for responsive mockup image]
 
@@ -11,7 +11,7 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 ### Site Wide
 
 ***Favicon***
-- A favicon of the dog graphic within the Ace Dogwalks logo will be featured on the tab header so it is easily identifiable among multiple tabs.
+- A favicon of the dog graphic within the Ace Dog Walks logo will be featured on the tab header so it is easily identifiable among multiple tabs.
 
 ![Placeholder for screenshot of favicon image on a tab]
 
@@ -24,7 +24,7 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 
 ***Footer***
 
-- Contains links to the Ace Dogwalks social media profiles so they can follow or find further information.
+- Contains links to the Ace Dog Walks social media profiles so they can follow or find further information.
 - These links open in a new tab and include accessibillity conventions such as aria labels.
 
 ![Placeholder for screenshot of footer bar]
@@ -39,13 +39,14 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 
 ![Placeholder for screenshot of hero image]
 
-***Why Choose Ace Dogwalks***
+***Why Choose Ace Dog Walks***
 
-- Information on Hannah Brookes and her approach to dog-walking with four sub-headings under two main areas: Practical Reasons (safety focus and convenience) and Personal Reasons (fun-loving and great exercise).
-- Includes image of smiling Hannah in her element with happy dog/s.
+- Short bio on Hannah Brookes and her approach to dog-walking with a photo
+- Section listing the reasons that the user (dog-owner) would choose Ace Dog Walks under two subheadings dog reasons and dog-owner reasons.
+- Includes images of Hannah with happy dog/s to reinforce the listed reasons to choose Ace Dog Walks.
 - The aim of this section is to build trust in Hannah and reassure the dog-owner that their dog will be safe and happy. 
 
-![Placeholder for screenshot of Why Book with Ace Dogwalks section]
+![Placeholder for screenshot of Why Book with Ace Dog Walks section]
 
 ***Walk Options***
 
@@ -59,15 +60,15 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
 
 ***Gallery***
 
-- This image gallery will include a variety of images to create a hall of fame of dogs that already enjoy Ace Dogwalks.
+- This image gallery will include a variety of images to create a hall of fame of dogs that already enjoy Ace Dog Walks.
 - Images will be formatted using the masory layout and are responsive so that they look good on devices of different sizes. 
 
 ![Placeholder for screenshot of Gallery page]
 
 ### Contact Page (contact.html)
 
-- A form for dog owners to contact Hannah and provide personal information, details of their dog and the reason for their enquiry.
-- Includes checkboxes for the dog owner to select their main priorities for their dog and preferred days / times to check availability.
+- A form for dog-owners to contact Hannah and provide personal information, details of their dog and the reason for their enquiry.
+- Includes checkboxes for the dog-owner to select their main priorities for their dog and preferred days / times to check availability.
 
 ![Placeholder for screenshot of Contact page]
 
@@ -84,6 +85,7 @@ The Ace Dogwalks site aims to help dog owners to feel reassured that their pet w
  
 ## Design
 
+![Mobile wireframe design of homepage](/assets/images/mobile-homepage-wireframe.png)
 
 ## Testing
 
