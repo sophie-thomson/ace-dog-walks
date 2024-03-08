@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto+Slab:wght@100..900&family=Spicy+Rice&display=swap');
 
 @font-face {
     font-family: 'Roadster Script';
@@ -31,10 +31,10 @@ body {
 }
 
 h2, h3 {
-    font-family: 'Roboto Slab', georgia, serif;
-    font-weight: Extrabold 900;
+    font-family: 'Mouse Memoirs', georgia, serif;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #5e5d5d;
 }
 
@@ -75,6 +75,7 @@ h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background-color: #fcfcf4;
 }
 
 header a {
@@ -140,18 +141,32 @@ main {
 }
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(180, 117, 140, 0.7);
-    font-size: 130%;
+    background-color: rgba(100, 134, 115, 0.7);
+    font-size: 150%;
     position: absolute;
     bottom: 30px;
     width: 80%;
-    min-height: 150px;
+    min-height: 120px;
     padding: 20px 10px 20px 20px;
 }
 
 #cover-text > h2, #cover-text > h3 {
     /* Targets particular text that is a direct child of the h2 or h3 headers with id of cover-text */
     color: #fcfcf4;
+    text-transform: none;
+}
+
+/* Why Book section */
+#why-book > h2 {
+    text-align: center;
+    font-size: 175%;
+}
+
+#circle-background-image {
+    background: url("../images/hannah-bio-image.jpg") no-repeat center/cover;
+    width: 90vw;
+    height: 90vw;
+
 }
 
 /* Footer */
