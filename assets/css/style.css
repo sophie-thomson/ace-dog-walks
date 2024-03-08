@@ -1,21 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Spicy+Rice&display=swap');
 
 @font-face {
     font-family: 'Roadster Script';
-    @font-face {
-        font-family: 'Roadster Script';
-        src: url('assets/fonts/RoadsterScript-GOPGq.eot');
-        src: url('assets/fonts/RoadsterScript-GOPGq.eot?#iefix') format('embedded-opentype'),
-             url('assets/fonts/RoadsterScript-GOPGq.woff2') format('woff2'),
-             url('assets/fonts/RoadsterScript-GOPGq.woff') format('woff'),
-             url('assets/fonts/RoadsterScript-GOPGq.ttf') format('truetype'),
-             url('assets/fonts/RoadsterScript-GOPGq.svg#Roadster Script') format('svg');
-    }
+    src: url('fonts/RoadsterScript-GOPGq.eot');
+    src: url('fonts/RoadsterScript-GOPGq.eot?#iefix') format('embedded-opentype'),
+        url('fonts/RoadsterScript-GOPGq.woff2') format('woff2'),
+        url('fonts/RoadsterScript-GOPGq.woff') format('woff'),
+        url('fonts/RoadsterScript-GOPGq.ttf') format('truetype'),
+        url('fonts/RoadsterScript-GOPGq.svg#Roadster Script') format('svg');
+    
   }
 
+  /* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General styles */
+body {
+    background-color:#fafaed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Roboto Slab', georgia, serif;
+    font-weight: Regular 400;
+}
+
+h2, h3 {
+    font-family: 'Roboto Slab', georgia, serif;
+    font-weight: ExtraBold 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #29796d;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+/* Header */
+
  #logo {
-    font-family: 'Roadster Script', 'Spicy Rice', Georgia, Times, serif;
-    /* text-transform: uppercase; */
+    font-family: 'Roadster Script', 'Spicy Rice', Georgia, serif;
+    font-size: 250%;
     letter-spacing: 2px;
-    color: #252525;
+    color: #29796d;
+    background-color: #fafaed;
+    text-decoration: none;
   }
+
+  #logo-2 {
+    font-family: 'Roboto Slab';
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  header {
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #787878;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: baseline; */
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
