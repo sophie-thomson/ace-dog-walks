@@ -49,6 +49,8 @@ h2, h3 {
     text-transform: none;
 }
 
+/* Header, menu, nav bar and toggle features, and footer styling adapted from CI Love Running Walkthrough Project */
+
 /* Header */
 
  #logo {
@@ -124,9 +126,8 @@ nav {
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
+    /* Expand main element so it takes up surplus space and pushes footer down to bottom*/
     flex: 1 0 auto;
-    margin-top: 47px;
     display: flex;
     flex-direction: column;
     margin-top: 71px;
@@ -140,7 +141,7 @@ main {
     position: relative;
 }
 #cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
+    /* Last rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(100, 134, 115, 0.7);
     font-size: 150%;
     position: absolute;
@@ -150,8 +151,8 @@ main {
     padding: 20px 10px 20px 20px;
 }
 
-#cover-text > h2, #cover-text > h3 {
-    /* Targets particular text that is a direct child of the h2 or h3 headers with id of cover-text */
+#cover-text > h3 {
+    /* Targets the text with id cover-text specifically*/
     color: #fcfcf4;
     text-transform: none;
 }
@@ -179,6 +180,22 @@ main {
     justify-content: center;
 }
 
+#bio-text {
+    margin: auto 20px;
+    line-height: 1.25rem;
+}
+
+#bio-text i {
+    color: #29796d;
+    font-size: 150%;
+    padding-bottom: 5px;
+}
+
+#bio-text p {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -191,4 +208,12 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #29796d;
+}
+
+@media screen and (min-width: 768px) {
+    #bio-text {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
 }
