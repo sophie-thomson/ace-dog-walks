@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+@font-face {
+    font-family: 'Roadster Script';
+    @font-face {
+        font-family: 'Roadster Script';
+        src: url('assets/fonts/RoadsterScript-GOPGq.eot');
+        src: url('assets/fonts/RoadsterScript-GOPGq.eot?#iefix') format('embedded-opentype'),
+             url('assets/fonts/RoadsterScript-GOPGq.woff2') format('woff2'),
+             url('assets/fonts/RoadsterScript-GOPGq.woff') format('woff'),
+             url('assets/fonts/RoadsterScript-GOPGq.ttf') format('truetype'),
+             url('assets/fonts/RoadsterScript-GOPGq.svg#Roadster Script') format('svg');
+    }
+  }
+
+ #logo {
+    font-family: 'Roadster Script', 'Spicy Rice', Georgia, Times, serif;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    color: #252525;
+  }
