@@ -25,21 +25,28 @@ body {
     flex-direction: column;
 
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #5e5d5d;
     font-family: 'Roboto Slab', georgia, serif;
     font-weight: Regular 400;
 }
 
 h2, h3 {
     font-family: 'Roboto Slab', georgia, serif;
-    font-weight: ExtraBold 900;
+    font-weight: Extrabold 900;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #29796d;
+    color: #5e5d5d;
 }
 
 .hidden-heading {
     display: none;
+}
+
+.in-line-logo {
+    font-family: 'Roadster Script', 'Spicy Rice', Georgia, serif;
+    letter-spacing: 2px;
+    color: #29796d;
+    text-transform: none;
 }
 
 /* Header */
