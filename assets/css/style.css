@@ -19,7 +19,7 @@
 }
 /* General styles */
 body {
-    background-color:#fafaed;
+    background-color:#fcfcf4;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,17 +49,14 @@ h2, h3 {
     font-size: 250%;
     letter-spacing: 2px;
     color: #29796d;
-    background-color: #fafaed;
-    text-decoration: none;
   }
 
   #logo-2 {
     font-family: 'Roboto Slab';
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 900;
-    text-decoration: none;
   }
 
   header {
@@ -68,12 +65,98 @@ h2, h3 {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #787878;
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
-    align-items: baseline; */
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 4px
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #fcfcf4;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #787878;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: #29796d;
+}
+
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("assets/images/hero-image-cliff-top-walk.jpg") no-repeat center center/cover;
+    position: relative;
+}
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;    
+}
+
+#cover-text > h2, #cover-text > h3 {
+    /* Targets particular text that is a direct child of the h2 or h3 headers with id of cover-text */
+    color: #ffffff;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #29796d;
 }
