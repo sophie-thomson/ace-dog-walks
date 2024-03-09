@@ -127,7 +127,7 @@ nav {
 
 /* Main content */
 main {
-    /* Expand main element so it takes up surplus space and pushes footer down to bottom*/
+/* Expand main element so it takes up surplus space and pushes footer down to bottom*/
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -142,7 +142,7 @@ main {
     position: relative;
 }
 #hero-cover-text {
-    /* Last rgba value sets the opacity so it is semi-transparent */
+/* Last rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(100, 134, 115, 0.7);
     font-size: 150%;
     position: absolute;
@@ -154,7 +154,7 @@ main {
 }
 
 #hero-cover-text > h3 {
-    /* Targets the text with id cover-text specifically*/
+/* Targets the text with id cover-text specifically*/
     color: #fcfcf4;
     text-transform: none;
 }
@@ -215,7 +215,7 @@ main {
 
 .reasons-box {
     background-color: rgba(71, 116, 91, 0.7);
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
     padding: 15px;
     color: #fcfcf4;
 }
@@ -280,7 +280,9 @@ main {
     #bio-text {
         display: flex;
         justify-content: center;
-        /* align-items: center; */
+        align-items: stretch;
+        gap: 10px;
+        
     }
 
     #reasons {
