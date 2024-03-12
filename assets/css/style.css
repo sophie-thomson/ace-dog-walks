@@ -58,12 +58,13 @@ h2, h3 {
     font-size: 250%;
     letter-spacing: 2px;
     color: #29796d;
+    padding-top: 10px;
   }
 
   #logo-2 {
     font-family: 'Roboto Slab';
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 900;
     visibility: hidden;
@@ -282,12 +283,21 @@ main {
 
 @media screen and (min-width: 375px) {
     #logo-2 {
+        font-size: 1.25rem;
         visibility: visible;
       }
 }
 
 @media screen and (min-width: 768px) {
 
+    #logo {
+        font-size: 280%;
+    }
+    
+    #logo-2 {
+        font-size: 1.50rem;
+    }
+    
     #hero-cover-text {
         width: 40vw;
         margin-left: 25px;
