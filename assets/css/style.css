@@ -267,6 +267,14 @@ main {
     max-height:
 }
 
+/* Gallery styling */
+#photos img {
+    width: 100%;
+    height: auto;
+    line-height: 1em;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
