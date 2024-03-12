@@ -74,7 +74,7 @@ h2, h3 {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #787878;
+    box-shadow: 0 1px 1px #787878;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -106,7 +106,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #787878;
+    box-shadow: 0 1px 1px #787878;
     display: none;
     top: 100%;
 }
@@ -164,9 +164,9 @@ main {
 /* Intro paragraph */
 
 #ace-intro p {
-    padding: 0 15px 0 15px;
+    padding: 0 10px 0 10px;
     margin-bottom: 1rem;
-    margin-top: 10px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -180,7 +180,7 @@ main {
 }
 
 #circle-background-image {
-    background: url("../images/hannah-bio-image.jpg") no-repeat center/cover;
+    background: url("../images/hannah-bio-small.webp") no-repeat center/cover;
     width: 80vw;
     height: 80vw;
     margin: 15px;
@@ -251,7 +251,7 @@ main {
 }
 
 #dog-reasons-image {
-    background: url("../images/ace-dog-walks-dog-reasons-cropped.jpg") no-repeat center/cover;
+    background: url("../images/ace-dog-walks-dog-reasons.webp") no-repeat center/cover;
     width: 100vw;
     height: 300px;
     /* max-width: 767px; */
@@ -259,7 +259,7 @@ main {
 }
 
 #owner-reasons-image {
-    background: url("../images/ace-dog-walks-owner-reasons-cropped.jpg") no-repeat center/cover;
+    background: url("../images/ace-dog-walks-owner-reasons.webp") no-repeat center/cover;
     width: 100vw;
     height: 300px;
     /* max-width: 767px; */
