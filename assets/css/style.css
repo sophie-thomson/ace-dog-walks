@@ -135,12 +135,26 @@ main {
 }
 
 /* Hero section */
+
+/* .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+} */
+
 #hero {
     height: 500px;
     width: 100%;
-    background: url("../images/hero-image-cliff-top-walk.jpg") no-repeat center/cover;
+    background: url("../images/ace-dog-walks-hero-image.webp") no-repeat center/cover;
     position: relative;
 }
+
 #hero-cover-text {
 /* Last rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(100, 134, 115, 0.7);
@@ -158,12 +172,22 @@ main {
     color: #fcfcf4;
     text-transform: none;
 }
+/* Intro paragraph */
+
+#ace-intro p {
+    padding: 0 15px 0 15px;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 /* Bio section */
 #bio > h2 {
     text-align: center;
     font-size: 175%;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
 }
 
 #circle-background-image {
