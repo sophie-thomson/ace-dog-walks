@@ -132,7 +132,7 @@ main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-    margin-top: 71px;
+    margin-top: 80px;
 }
 
 /* Hero section */
@@ -317,10 +317,10 @@ main {
         gap: 20px;
     }
 
-    #hero {
-        margin-top: 15px;
+    main {
+        margin-top: 90px;
     }
-
+    
     #hero-cover-text {
         width: 40vw;
         margin-left: 25px;
