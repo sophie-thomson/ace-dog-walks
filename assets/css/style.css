@@ -276,8 +276,9 @@ main {
 
 #photos img {
     width: 100%;
-    height: auto;
     line-height: 1em;
+    padding: 8px 15px;
+    border-radius: 30px;
 }
 
 
@@ -386,7 +387,12 @@ main {
     /* Gallery styling on tablet */
 
     #photos {
-        column-count: 2;
+        column-count: 3;
+        margin: 0 15px; 
+    }
+
+    #photos img {
+        padding: 5px 0;
     }
 
 }
@@ -397,5 +403,10 @@ main {
 
     #owner-reasons-cover-text {
     
+    }
+
+    /* Responsive Gallery styling on laptops */
+    #photos {
+        column-count: 4;
     }
 }
