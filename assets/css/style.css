@@ -289,11 +289,23 @@ main {
 
 
 /* Footer */
+
+#footer-box {
+    display: flex;
+    /* flex-basis: 100%; */
+    align-items: stretch;
+    justify-content: center;
+}
+
+#contact-details {
+    margin-left: 15px;
+}
+
 #social-networks {
-    text-align: center;
+    text-align: right;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     list-style-type: none;
 }
 #social-networks i {
@@ -376,10 +388,6 @@ main {
     #reasons {
         flex-flow: row wrap;
         align-self: center;
-    }
-
-    .reasons-box {
-        /* max-width: 364px; */
     }
 
     #owner-reasons-image {
