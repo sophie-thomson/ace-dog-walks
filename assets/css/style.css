@@ -271,13 +271,19 @@ main {
 
  #gallery-heading {
     text-align: center;
-    padding: 15px;
+    margin: 15px 15px 8px 15px;
+    font-size: 120%;
+    line-height: 1.1;
+ }
+
+ #photos {
+    margin: 0 3px;
  }
 
 #photos img {
     width: 100%;
     line-height: 1em;
-    padding: 8px 15px;
+    padding: 7.5px 15px;
     border-radius: 30px;
 }
 
@@ -386,6 +392,12 @@ main {
 
     /* Gallery styling on tablet */
 
+    #gallery-heading {
+        margin: 15px 15px 8px 15px;
+        font-size: 130%;
+        /* line-height: 1.1; */
+     }
+    
     #photos {
         column-count: 3;
         margin: 0 15px; 
