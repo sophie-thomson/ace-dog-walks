@@ -272,6 +272,7 @@ main {
 
  #photos {
     margin: 0 3px;
+    margin-bottom: 15px;
  }
 
 #photos img {
@@ -294,7 +295,7 @@ main {
 
 #footer-box a {
     text-decoration: none;
-    color:#787878;   
+    color:#5e5d5d;   
 }
 
 #footer-box a:hover {
