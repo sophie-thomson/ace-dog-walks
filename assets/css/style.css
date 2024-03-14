@@ -318,6 +318,7 @@ main {
 /* Contact Form Section */
 
 #contact-form {
+    width: 90vw;
     margin: 15px;
     font-size: 90%;
     line-height: 1.25rem;
