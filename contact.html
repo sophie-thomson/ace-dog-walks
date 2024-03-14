@@ -49,15 +49,15 @@
             <p>If you just have a quick question, don't hesitate to give me a call on <a href="tel:07889808364" aria-label="Call me on the phone. Opens telephoning app."><strong>07889 808364 </strong></a>or message me on <a href="https://www.facebook.com/profile.php?id=61554458469214" target="_blank" rel="noopener" aria-label="Visit our Facebook page. Opens in a new tab.">Facebook</a> or <a href="https://www.instagram.com/acedogwalks/" target="_blank" rel="noopener" aria-label="Visit our Instagram page. Opens in a new tab.">Instagram</a>.</p>
         </div>
         <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
-            <div id="owner-details" class="form-box">
+            <div id="box-1" class="form-box">
                 <!-- Owner details of contact form -->
-                <fieldset>
+                <fieldset id="owner-details">
                     <legend class="legend-heading"><h3>Your Details</h3></legend>
                     <label for="first-name">First Name: </label>
-                    <input type="text" id="first-name" name="first-name" placeholder="Your first name" required><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="Your name" required><br>
 
                     <label for="last-name">Last Name: </label>
-                    <input type="text" id="last-name" name="last-name" placeholder="Your last name" required><br> 
+                    <input type="text" id="last-name" name="last-name" placeholder="Your surname" required><br> 
 
                     <label for="telephone">Tel: </label>
                     <input type="tel" id="telephone" name="telephone" required><br>
@@ -77,14 +77,14 @@
                 </fieldset>
             </div>
             <!-- Dog details of contact form with option to add an extra dog -->
-            <div id="dog-details" class="form-box">
-                <fieldset>
+            <div id="box-2" class="form-box">
+                <fieldset id="dog-details">
                     <legend class="legend-heading"><h3>Your Dog's Details</h3></legend>
                     <label for="dog-name">Name: </label>
                     <input type="text" id="dog-name" name="dog-name" placeholder="Your dog's name" required><br>
 
                     <label for="dog-age">Age: </label>
-                    <input type="text" id="dog-age" name="dog-age" placeholder="Age in years" required><br>
+                    <input type="text" id="dog-age" name="dog-age" placeholder="Years / Months" required><br>
                     
                     <label for="dog-breed">Breed: </label>
                     <input type="text" id="dog-breed" name="dog-breed" required><br>
@@ -106,21 +106,22 @@
                             </div>
                             <div>
                                 <input type="radio" id="x-large" name="dog-size" required>
-                                <label for="x-large"> Very large</label>
+                                <label for="x-large"> X-Large</label>
                             </div>
                         </div>
                     </fieldset>
                     <label for="dog-info">Further information: </label>
-                    <input type="text" id="dog-info" name="dog-info" placeholder="Any other useful informaton">
+                    <textarea id="dog-info" name="dog-info" rows="3"></textarea>
 
                     <!-- Toggle option to duplicate form items for another dog -->
-                    <div id="add-dog-toggle">
-                        <label for="add-dog">Add another dog? </label>
-                        <input type="checkbox" id="add-dog" name="add-dog">
-                    </div>
+                    <!-- CODE REMOVED AS COULD NOT MAKE TOGGLE WORK WELL WITHOUT JS -->
+                    
+                    <!-- <label for="add-dog-toggle" class="dog-toggle-label">Add another dog? </label>
+                    <input type="checkbox" id="add-dog-toggle" name="add-dog-toggle">
+                     -->
 
                     <!-- Details for additional dog -->
-                    <div id="extra-dog">
+                    <!-- <div id="extra-dog">
                         <label for="dog-name-2">Name: </label>
                     <input type="text" id="dog-name-2" name="dog-name-2" placeholder="Your dog's name" required><br>
 
@@ -151,13 +152,14 @@
                             </div>
                         </div>
                     </fieldset>
+                    </div>
                     <label for="dog-info-2">Further information: </label>
-                    <input type="text" id="dog-info-2" name="dog-info-2" placeholder="Any other useful informaton">
-                </fieldset>
+                    <input type="textarea" id="dog-info-2" name="dog-info-2" placeholder="Any other useful informaton">
+                </fieldset> -->
             </div>
             <!-- Walk preferences section of the form -->
-            <div id="walk-options" class="form-box">
-                <fieldset>
+            <div id="box-3" class="form-box">
+                <fieldset id="walk-options">
                     <legend class="legend-heading"><h3>Walk Preferences</h3></legend>
                     <fieldset>
                         <legend>Required Walks:</legend>
@@ -168,11 +170,11 @@
                             </div>
                             <div>
                                 <input type="radio" name="frequency" id="1-2" required>
-                                <label for="1-2">1-2 walks per week</label>
+                                <label for="1-2">1-2 walks<br />per wk</label>
                             </div>
                             <div>
                                 <input type="radio" name="frequency" id="3-4" required>
-                                <label for="3-4">3-4 walks per week</label>
+                                <label for="3-4">3-4 walks<br />per wk</label>
                             </div>
                         </div>
                     </fieldset>
@@ -181,31 +183,31 @@
                         <div>
                             <input type="checkbox" id="monday" name="monday"/>
                             <label for="monday">Mon </label>
-                          </div>
-                          <div>
+                        </div>
+                        <div>
                             <input type="checkbox" id="tuesday" name="tuesday"/>
                             <label for="tuesday">Tues </label>
-                          </div>
-                          <div>
+                        </div>
+                        <div>
                             <input type="checkbox" id="wednesday" name="wednesday"/>
                             <label for="wednesday">Wed </label>
-                          </div>
-                          <div>
+                        </div>
+                        <div>
                             <input type="checkbox" id="thursday" name="thursday"/>
                             <label for="thursday">Thurs </label>
-                          </div>
-                          <div>
+                        </div>
+                        <div>
                             <input type="checkbox" id="friday" name="friday"/>
                             <label for="friday">Fri </label>
-                          </div>
-                          <div>
+                        </div>
+                        <div>
                             <input type="checkbox" id="saturday" name="saturday"/>
                             <label for="saturday">Sat </label>
-                          </div>
-                          <div>
+                        </div>
+                        <div>
                             <input type="checkbox" id="sunday" name="sunday"/>
                             <label for="sunday">Sun </label>
-                          </div>
+                        </div>
                     </fieldset>
                     <fieldset id="time">
                         <legend>Preferred time:</legend>
@@ -225,7 +227,7 @@
                         </div>
                     </fieldset>   
                     <label for="walk-info">Futher Information: </label>
-                    <input type="text" id="walk-info" name="walk-info" placeholder="Any other useful informaton"> 
+                    <textarea id="dog-info" name="walk-info" rows="3"></textarea> 
                 </fieldset>
             </div>
             
