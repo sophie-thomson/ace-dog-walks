@@ -41,12 +41,21 @@ h2, h3 {
 .hidden-heading {
     display: none;
 }
-
+/* Creates an option to use a span to insert 'Ace' logo inline */
 .in-line-logo {
     font-family: 'Roadster Script', 'Spicy Rice', Georgia, serif;
     letter-spacing: 2px;
     color: #29796d;
     text-transform: none;
+}
+/* Link styling to remove underline and turn green when hover over it*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color:#29796d
 }
 
 /* Header, menu, nav bar and toggle features, and footer styling adapted from CI Love Running Walkthrough Project */
@@ -80,11 +89,6 @@ h2, h3 {
     justify-content: space-between;
     align-items: baseline;
     background-color: #fcfcf4;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
 }
 
 #menu {
@@ -282,6 +286,27 @@ main {
     border-radius: 20px;
 }
 
+/* Contact page styling */
+
+/* Heading section */
+#contact-heading {
+    text-align: center;
+    margin: 15px 15px 8px 15px;
+}
+
+#contact-heading p {
+    padding: 0 10px 0 10px;
+    margin-bottom: 1rem;
+}
+
+#contact-heading h2 {
+    font-size: 175%;
+    margin-bottom: 1rem;
+}
+
+#contact-form h3 {
+    text-transform: none;
+}
 
 /* Footer */
 
