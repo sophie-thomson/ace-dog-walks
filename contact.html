@@ -159,19 +159,19 @@
             <div id="walk-options" class="form-box">
                 <fieldset>
                     <legend><h3>Walk Preferences</h3></legend>
-                    <fieldset id="frequency">
+                    <fieldset>
                         <legend>Required Walks:</legend>
                         <div class="radio-buttons">
                             <div>
-                                <input type="radio" name="single" id="single" checked>
+                                <input type="radio" name="frequency" id="single" required checked>
                                 <label for="single">Single walk</label>
                             </div>
                             <div>
-                                <input type="radio" name="1-2" id="1-2">
+                                <input type="radio" name="frequency" id="1-2" required>
                                 <label for="1-2">1-2 walks per week</label>
                             </div>
                             <div>
-                                <input type="radio" name="3-4" id="3-4">
+                                <input type="radio" name="frequency" id="3-4" required>
                                 <label for="3-4">3-4 walks per week</label>
                             </div>
                         </div>
@@ -211,15 +211,15 @@
                         <legend>Preferred time:</legend>
                         <div class="radio-buttons">
                             <div>
-                                <input type="radio" name="morning" id="morning">
+                                <input type="radio" name="time" id="morning" required checked>
                                 <label for="morning">Mornings</label>
                             </div>
                             <div>
-                                <input type="radio" name="afternoon" id="afternoon">
+                                <input type="radio" name="time" id="afternoon" required>
                                 <label for="afternoon">Afternoons</label>
                             </div>    
                             <div>
-                                <input type="radio" name="anytime" id="anytime">
+                                <input type="radio" name="time" id="anytime" required>
                                 <label for="anytime">Any</label>
                             </div>
                         </div>
