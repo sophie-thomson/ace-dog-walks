@@ -150,7 +150,7 @@ main {
 
 #hero-cover-text {
 /* Last rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(100, 134, 115, 0.7);
+    background-color: rgba(41, 121, 109, 0.4);
     font-size: 150%;
     position: absolute;
     bottom: 30px;
@@ -227,21 +227,23 @@ main {
 #reasons {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #reasons h3 {
     font-size: 140%;
-    color: #fcd3da;
+    color:#5e5d5d;
     padding-bottom: 5px;
     text-transform: none;
 }
 
 .reasons-box {
-    background-color: rgba(71, 116, 91, 0.7);
-    margin-bottom: 20px;
+    background-color: rgba(41, 121, 109, 0.2);
+    margin: 0 15px 15px 15px;
     padding: 15px;
-    color: #fcfcf4;
+    color:#5e5d5d;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .reasons-box ul {
@@ -251,18 +253,23 @@ main {
 .reasons-box i {
     font-size: 80%;
     padding-right: 3px;
+    color: #29796d;
 }
 
 #dog-reasons-image {
     background: url("../images/ace-dog-walks-dog-reasons.webp") no-repeat center/cover;
-    width: 100vw;
     height: 300px;
+    margin: 15px 15px 0 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #owner-reasons-image {
     background: url("../images/ace-dog-walks-owner-reasons.webp") no-repeat center/cover;
-    width: 100vw;
     height: 300px;
+    margin: 15px 15px 0 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 /* Gallery styling */
@@ -311,7 +318,6 @@ main {
 /* Contact Form Section */
 
 #contact-form {
-    color:#fcfcf4;
     margin: 15px;
     font-size: 90%;
     line-height: 1.25rem;
@@ -324,18 +330,26 @@ main {
 
 #contact-form h3 {
     text-transform: none;
-    color:#fcfcf4;
-    /* text-align: center; */
     font-size: 175%;
     padding-bottom: 10px;
 }
 
+.legend-heading {
+    text-align: center;
+}
+/* To style the background of each form box section */
 .form-box {
-    background-color: rgba(100, 134, 115, 0.7);
+    background-color:rgba(41, 121, 109, 0.2);
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 20px;
 }
+
+.form-box label {
+    width: 40%;
+    display: inline-block;
+}
+
 .radio-buttons {
     accent-color:#29796d;
  }
