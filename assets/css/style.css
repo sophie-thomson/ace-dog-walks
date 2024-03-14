@@ -223,9 +223,7 @@ main {
 #reasons {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     width: 100%;
-    /* margin:0 10px 0 10px; */
 }
 
 #reasons h3 {
@@ -255,16 +253,12 @@ main {
     background: url("../images/ace-dog-walks-dog-reasons.webp") no-repeat center/cover;
     width: 100vw;
     height: 300px;
-    /* max-width: 767px; */
-    max-height: 
 }
 
 #owner-reasons-image {
     background: url("../images/ace-dog-walks-owner-reasons.webp") no-repeat center/cover;
     width: 100vw;
     height: 300px;
-    /* max-width: 767px; */
-    max-height:
 }
 
 /* Gallery styling */
@@ -284,7 +278,7 @@ main {
     width: 100%;
     line-height: 1em;
     padding: 7.5px 15px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 
@@ -292,38 +286,79 @@ main {
 
 #footer-box {
     display: flex;
-    /* flex-basis: 100%; */
-    align-items: stretch;
-    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+#footer-box a {
+    text-decoration: none;
+    color:#787878;   
+}
+
+#footer-box a:hover {
+    color:#29796d;
 }
 
 #contact-details {
     margin-left: 15px;
+    font-size: 90%;
+    align-self: center;
 }
 
-#social-networks {
-    text-align: right;
-    padding: 20px 0;
-    display: flex;
-    /* justify-content: space-evenly; */
-    list-style-type: none;
+#contact-details p {
+    padding-bottom: 3px;
 }
+
+#contact-details i {
+    font-size: 160%;
+    padding-right: 10px;
+    color:#29796d
+}
+
+/* Hides email address on smaller mobiles to show phone icon only */
+.footer-hidden {
+    display: none;
+}
+
+/* Arranges icons on right of the footer on all device sizes */
+#social-networks {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #29796d;
 }
-
+/* Media query for larger mobiles and larger*/
 @media screen and (min-width: 375px) {
     #logo-2 {
         font-size: 1.25rem;
         visibility: visible;
       }
+     
+    
+    /* Footer media query */
+    /* Reduce size of icons for better display with email contact now visible */
+    #contact-details i {
+        font-size: 120%;
+    }  
+    .footer-hidden {
+        display: inline;
+    }
+   
 }
-
+/* Media query for tablets and larger*/
 @media screen and (min-width: 768px) {
 
-    /* Logo responsivity */
+    /* Logo responsivity on tablet*/
     #logo {
         font-size: 280%;
     }
@@ -415,6 +450,21 @@ main {
         padding: 5px 0;
     }
 
+    /* Footer styling on tablet */
+
+    #contact-details {
+        margin-left: 30px;
+    }
+
+    #social-networks {
+        gap: 30px;
+        margin-right: 30px;
+        
+    }
+    
+    #social-networks i {
+        font-size: 175%;
+    }
 }
 @media screen and (min-width: 1024px) {
     #dog-reasons-cover-text {
