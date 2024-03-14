@@ -50,6 +50,7 @@
         </div>
         <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
             <div id="owner-details" class="form-box">
+                <!-- Owner details of contact form -->
                 <fieldset>
                     <legend><h3>Your Details</h3></legend>
                     <label for="first-name">First Name: </label>
@@ -75,6 +76,7 @@
 
                 </fieldset>
             </div>
+            <!-- Dog details of contact form with option to add an extra dog -->
             <div id="dog-details" class="form-box">
                 <fieldset>
                     <legend><h3>Your Dog's Details</h3></legend>
@@ -87,7 +89,7 @@
                     <label for="dog-breed">Breed: </label>
                     <input type="text" id="dog-breed" name="dog-breed" required><br>
 
-                    <fieldset>
+                    <fieldset id="dog-size">
                         <legend>Dog size:</legend>
                         <div class="radio-buttons">
                             <div>
@@ -128,7 +130,7 @@
                     <label for="dog-breed-2">Breed: </label>
                     <input type="text" id="dog-breed-2" name="dog-breed-2" required><br>
 
-                    <fieldset>
+                    <fieldset id="dog-size-2">
                         <legend>Dog size:</legend>
                         <div class="radio-buttons">
                             <div>
@@ -150,12 +152,80 @@
                         </div>
                     </fieldset>
                     <label for="dog-info-2">Further information: </label>
-                    <input type="text" id="dog-info-2" name="dog-info" placeholder="Any other useful informaton">
+                    <input type="text" id="dog-info-2" name="dog-info-2" placeholder="Any other useful informaton">
                 </fieldset>
             </div>
+            <!-- Walk preferences section of the form -->
             <div id="walk-options" class="form-box">
                 <fieldset>
                     <legend><h3>Walk Preferences</h3></legend>
+                    <fieldset id="frequency">
+                        <legend>Required Walks:</legend>
+                        <div class="radio-buttons">
+                            <div>
+                                <input type="radio" name="single" id="single" checked>
+                                <label for="single">Single walk</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="1-2" id="1-2">
+                                <label for="1-2">1-2 walks per week</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="3-4" id="3-4">
+                                <label for="3-4">3-4 walks per week</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset id="days">
+                        <legend>Preferred day/s:</legend>
+                        <div>
+                            <input type="checkbox" id="monday" name="monday"/>
+                            <label for="monday">Mon </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="tuesday" name="tuesday"/>
+                            <label for="tuesday">Tues </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="wednesday" name="wednesday"/>
+                            <label for="wednesday">Wed </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="thursday" name="thursday"/>
+                            <label for="thursday">Thurs </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="friday" name="friday"/>
+                            <label for="friday">Fri </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="saturday" name="saturday"/>
+                            <label for="saturday">Sat </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="sunday" name="sunday"/>
+                            <label for="sunday">Sun </label>
+                          </div>
+                    </fieldset>
+                    <fieldset id="time">
+                        <legend>Preferred time:</legend>
+                        <div class="radio-buttons">
+                            <div>
+                                <input type="radio" name="morning" id="morning">
+                                <label for="morning">Mornings</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="afternoon" id="afternoon">
+                                <label for="afternoon">Afternoons</label>
+                            </div>    
+                            <div>
+                                <input type="radio" name="anytime" id="anytime">
+                                <label for="anytime">Any</label>
+                            </div>
+                        </div>
+                    </fieldset>   
+                    <label for="walk-info">Futher Information: </label>
+                    <input type="text" id="walk-info" name="walk-info" placeholder="Any other useful informaton"> 
                 </fieldset>
             </div>
             
