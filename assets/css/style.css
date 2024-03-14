@@ -150,8 +150,8 @@ main {
 
 #hero-cover-text {
 /* Last rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(41, 121, 109, 0.4);
-    font-size: 150%;
+    background-color: rgba(136, 172, 150, 0.5);
+    font-size: 140%;
     position: absolute;
     bottom: 30px;
     width: 80%;
