@@ -346,12 +346,22 @@ main {
 }
 
 .form-box label {
-    width: 40%;
+    width: 150px;
     display: inline-block;
+}
+
+#contact-form input {
+    color:#fcfcf4;
+    border: 1px solid #29796d;
+    height: 20px;
+    padding: 0 5px;
 }
 
 .radio-buttons {
     accent-color:#29796d;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
  }
 
 #days {
