@@ -4,23 +4,25 @@ Ace Dog Walks is a website for people wanting to find out more about the dog wal
 
 The Ace Dog Walks site aims to help dog owners to feel reassured that their pet will be well looked after, that they will have a fun and energetic walk and that they are going to get value for money.
 
-![Placeholder for responsive mockup image]
+![Multi-device mockup showing responsiveness](docs/readme-images/multi-mockup.png)
 
 ## Features
 
 ### Site Wide
 
 ***Favicon***
-- A favicon of the dog graphic within the Ace Dog Walks logo will be featured on the tab header so it is easily identifiable among multiple tabs.
+- A favicon of the letter 'A' from the Ace Dog Walks header logo so it is easily identifiable among multiple tabs.
 
-![Placeholder for screenshot of favicon image on a tab]
+![Screenshot of favicon image on a tab](docs/readme-images/favicon.png)
 
 ***Navigation Menu***
 - Makes it easy for the user to move around the site and find relevant information.
 - Includes links to each page of the site (Home, Gallery and Contact). 
-- Responsive design to work across devices of different sizes (uses less space on smaller devices).
+- Responsive design to work across devices of different sizes (uses less space and reduced logo with burger icon on smaller devices).
 
-![Placeholder for screenshot of navigation menu]
+![Screenshot of navigation menu on Galaxy Fold](docs/readme-images/nav-menu-smallest.png)
+![Screenshot of navigation menu on tablet and up](docs/readme-images/nav-menu-larger.png)
+
 
 ***Footer***
 
@@ -87,9 +89,9 @@ The Ace Dog Walks site aims to help dog owners to feel reassured that their pet 
 
 ### Homepage Layout
 
-![Mobile wireframe design of homepage](/assets/images/mobile-homepage-wireframe.png)
-![Mobile wireframe design of homepage](/assets/images/tablet-homepage-wireframe.png)
-![Mobile wireframe design of homepage](/assets/images/laptop-homepage-wireframe.png)
+![Mobile wireframe design of homepage](docs/readme-images/mobile-homepage-wireframe.png)
+![Mobile wireframe design of homepage](docs/readme-images/tablet-homepage-wireframe.png)
+![Mobile wireframe design of homepage](docs/readme-images/laptop-homepage-wireframe.png)
 
 ## Testing
 
