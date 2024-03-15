@@ -456,7 +456,6 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    /* flex-grow: 1; */
 }
 
 #message h2, #message > p {
@@ -464,12 +463,12 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     padding: 0 15px;
 }
 
-#thank-you h2 {
+#message h2 {
     font-size: 175%;
     padding: 25px; 
 }
 
-#thank-you a {
+#message a {
     color:#29796d;
 }
 
@@ -478,9 +477,39 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     height: auto;
     margin: auto;
     padding-top: 50px;
+    max-width: 250px;
 }
 
+/* 404 page styling */
 
+#sorry {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+#message h2, #message > p {
+    text-align: center;
+    padding: 0 15px;
+}
+
+#message h2 {
+    font-size: 175%;
+    padding: 25px; 
+}
+
+#message a {
+    color:#29796d;
+}
+
+#sorry img {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    max-width: 250px;
+}
 
 /* Footer */
 
