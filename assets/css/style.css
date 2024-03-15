@@ -517,7 +517,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     font-family: 'Roboto Slab';
     font-weight:600;
     text-transform: uppercase;
-    width: auto;
+    width: 195px;
     border-radius: 5px;
     padding: 10px 25px;
     text-align: center;
