@@ -19,7 +19,7 @@
 }
 /* General styles */
 body {
-    background-color:#fcfcf4;
+    background-color:#fcfcf4c2;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ h2, h3 {
 .in-line-logo {
     font-family: 'Roadster Script', 'Spicy Rice', Georgia, serif;
     letter-spacing: 2px;
-    color: #29796d;
+    color: #07755b;
     text-transform: none;
 }
 /* Link styling to remove underline and turn green when hover over it*/
@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-    color:#29796d
+    color:#07755b;
 }
 
 /* Header, menu, nav bar and toggle features, and footer styling adapted from CI Love Running Walkthrough Project */
@@ -66,7 +66,7 @@ a:hover {
     font-family: 'Roadster Script', 'Spicy Rice', Georgia, serif;
     font-size: 250%;
     letter-spacing: 2px;
-    color: #29796d;
+    color: #07755b;
     padding-top: 10px;
   }
 
@@ -101,13 +101,13 @@ a:hover {
     margin-bottom: 10px;
 }
 .active {
-    border-bottom: 1px solid #29796d;
+    border-bottom: 1px solid #07755b;
 }
 
 /* navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #fcfcf4;
+    background-color: #fcfcf4c2;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -127,7 +127,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: #29796d;
+    color: #07755b;
 }
 
 /* Main content */
@@ -163,7 +163,7 @@ main {
 
 #hero-cover-text > h3 {
 /* Targets the text with id cover-text specifically*/
-    color: #fcfcf4;
+    color: #fcfcf4c2;
     text-transform: none;
 }
 
@@ -207,14 +207,14 @@ main {
 }
 
 #bio-text h3 {
-    color: #29796d;
+    color: #07755b;
     text-align: center;
     font-size: 140%;
     text-transform: none;
 }
 
 #bio-text i {
-    color: #29796d;
+    color: #07755b;
     font-size: 90%;
     padding-bottom: 10px;
 }
@@ -254,7 +254,7 @@ main {
 .reasons-box i {
     font-size: 80%;
     padding-right: 3px;
-    color: #29796d;
+    color: #07755b;
 }
 
 #dog-reasons-image {
@@ -320,7 +320,7 @@ main {
 }
 
 #contact-heading a {
-    color:#29796d;
+    color:#07755b;
 }
 
 /* Contact Form Section */
@@ -401,7 +401,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
 }
 
 .radio-buttons {
-    accent-color:#29796d;
+    accent-color:#07755b;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -425,8 +425,8 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
  }
 
  #submit-button:hover {
-    background-color: #29796d;
-    color:#fcfcf4;
+    background-color: #07755b;
+    color:#dce9e6;
  }
 
 #dog-info, #walk-info {
@@ -436,7 +436,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
 }
 
 #days {
-    accent-color:#29796d;
+    accent-color:#07755b;
     display: flex;
     flex-flow: row wrap;
     flex-basis: 50px;
@@ -458,18 +458,18 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     justify-content: center;
 }
 
-#message h2, #message > p {
+.message h2, .message > p {
     text-align: center;
     padding: 0 15px;
 }
 
-#message h2 {
+.message h2 {
     font-size: 175%;
     padding: 25px; 
 }
 
-#message a {
-    color:#29796d;
+.message a {
+    color:#07755b;
 }
 
 #thank-you img {
@@ -489,18 +489,9 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     justify-content: center;
 }
 
-#message h2, #message > p {
-    text-align: center;
-    padding: 0 15px;
-}
-
-#message h2 {
+#sorry h2 {
     font-size: 200%;
     padding: 25px; 
-}
-
-#message a {
-    color:#29796d;
 }
 
 #sorry img {
@@ -512,8 +503,8 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
 }
 
 #home-button {
-    background-color: #29796d;
-    color:#fcfcf4;
+    background-color: #07755b;
+    color:#fcfcf4c2;
     font-family: 'Roboto Slab';
     font-weight:600;
     text-transform: uppercase;
@@ -521,7 +512,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     border-radius: 5px;
     padding: 10px 25px;
     text-align: center;
-    margin: auto;
+    margin: 25px auto;
     box-shadow: 0 2px 2px #787878;
 }
 
@@ -541,7 +532,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
 }
 
 #footer-box a:hover {
-    color:#29796d;
+    color:#07755b;
 }
 
 #contact-details {
@@ -558,7 +549,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
 #contact-details i {
     font-size: 160%;
     padding-right: 10px;
-    color:#29796d
+    color:#07755b;
 }
 
 
@@ -581,7 +572,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #29796d;
+    color: #07755b;
 }
 /* Media query for larger mobiles and larger*/
 @media screen and (min-width: 375px) {
