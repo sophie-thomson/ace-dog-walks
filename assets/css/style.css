@@ -295,6 +295,13 @@ main {
 }
 
 /* Contact page styling */
+/* General styling for layout of whole page */
+#contact {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
 
 /* Heading section */
 #contact-heading {
@@ -325,7 +332,6 @@ main {
     line-height: 1.25rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 #contact-form fieldset {
@@ -343,7 +349,7 @@ main {
     font-weight: bold;
 }
 
-#owner-details > label, #dog-details > label, #walk-options > label{
+#owner-details > label, #dog-details > label, #walk-options > label {
     font-weight: bold;
 }
 
@@ -353,8 +359,7 @@ main {
 /* To style the background of each form box section */
 .form-box {
     background-color:rgba(41, 121, 109, 0.2);
-    padding: 15px;
-    max-width: 600px;
+    padding: 15px 15px 0 15px;
 }
 
 #box-1 {
@@ -397,14 +402,6 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     gap: 10px;
  }
 
- /* #add-dog-toggle:checked>extra-dog {
-    display: block;
-}
-
-#extra-dog {
-    display: none;
-} */
-
 #dog-info, #walk-info {
     width: 100%;
     border-radius: 5px;
@@ -416,19 +413,14 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     display: flex;
     flex-flow: row wrap;
     flex-basis: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
-}
-
-#days label {
     text-align: center;
 }
 
-/* display: inline-block;
-    column-count: 3;
-    width: 100%;
-    height: 130px; */
-
+#days legend {
+    text-align: left;
+}
 /* Footer */
 
 #footer-box {
@@ -502,6 +494,22 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     }
    
 }
+
+/* Media query for setting width of contact form on larger mobile / small tablet devices*/
+
+@media screen and (min-width: 650px) {
+
+    #contact-form {
+        width: 80vw;
+        margin: auto;
+        /* font-size: 90%;
+        line-height: 1.25rem;
+        display: flex;
+        flex-direction: column; */
+    }
+
+}
+
 /* Media query for tablets and larger*/
 @media screen and (min-width: 768px) {
 
@@ -581,7 +589,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
         width: 45vw;
     }
 
-    /* Gallery styling on tablet */
+    /* Gallery responsiveness on tablet */
 
     #gallery-heading {
         margin: 15px 15px 8px 15px;
@@ -598,7 +606,13 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
         padding: 5px 0;
     }
 
-    /* Footer styling on tablet */
+    /* Contact form responsivemess on tablet and larger */
+    #contact-form {
+        max-width: 600px;
+        margin: auto;
+    }
+    
+    /* Footer responsiveness on tablet */
 
     #contact-details {
         margin-left: 30px;
