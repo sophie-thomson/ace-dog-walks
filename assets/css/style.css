@@ -600,10 +600,6 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     #contact-form {
         width: 80vw;
         margin: auto;
-        /* font-size: 90%;
-        line-height: 1.25rem;
-        display: flex;
-        flex-direction: column; */
     }
 
 }
@@ -727,14 +723,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     }
 }
 @media screen and (min-width: 1024px) {
-    #dog-reasons-cover-text {
-
-    }
-
-    #owner-reasons-cover-text {
     
-    }
-
     /* Responsive Gallery styling on laptops */
     #photos {
         column-count: 4;
