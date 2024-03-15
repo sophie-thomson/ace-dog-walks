@@ -19,7 +19,7 @@
 }
 /* General styles */
 body {
-    background-color:#fcfcf4c2;
+    background-color:#fefefc;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: #fcfcf4;
+    background-color: #fefefc;
 }
 
 #menu {
@@ -107,7 +107,7 @@ a:hover {
 /* navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #fcfcf4c2;
+    background-color: #fefefc;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -163,7 +163,7 @@ main {
 
 #hero-cover-text > h3 {
 /* Targets the text with id cover-text specifically*/
-    color: #fcfcf4c2;
+    color: #fefefc;
     text-transform: none;
 }
 
@@ -504,7 +504,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
 
 #home-button {
     background-color: #07755b;
-    color:#fcfcf4c2;
+    color:#fefefc;
     font-family: 'Roboto Slab';
     font-weight:600;
     text-transform: uppercase;
