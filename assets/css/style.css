@@ -495,7 +495,7 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
 }
 
 #message h2 {
-    font-size: 175%;
+    font-size: 200%;
     padding: 25px; 
 }
 
@@ -510,6 +510,26 @@ input[type=text], input[type=tel], input[type=email], input[type=number] {
     padding-top: 50px;
     max-width: 250px;
 }
+
+#404-button {
+    background-color: #ffffff;
+    color:#5e5d5d;
+    border: solid 2px rgba(104, 126, 113, 0.7);
+    font-family: 'Roboto Slab';
+    font-weight:600;
+    text-transform: uppercase;
+    width: 125px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 2px 2px #787878;
+}
+
+ #submit-button:hover {
+    background-color: #29796d;
+    color:#fcfcf4;
+ }
 
 /* Footer */
 
