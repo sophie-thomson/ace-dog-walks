@@ -102,6 +102,7 @@ The Ace Dog Walks site aims to help dog owners to feel reassured that their pet 
 ### Additional Features to Implement
 To expand on this site, there are a number of features that could be added to provide additional information and functionality:
 - Submit action in contact form would send information to Hannah in email format and send a copy to the dog owner.
+- A checkbox could be added to the 'dog-details' section to enable the user to add another dog if they have more than one.
 - Add video content to gallery page, embedding reels and other video content from socials.
 - Add a walk options page with examples of walk locations on a map with further images and costings.
  
@@ -116,7 +117,7 @@ To expand on this site, there are a number of features that could be added to pr
 ## Testing
 
 ### Links
-Every link and hover link has been tested on each page of the site.
+Every link and hover link has been tested on each page of the site, including the navigation menu items, contact links and social media icon links in the footer in each page separately.
 
 ***Method of Testing***
 
@@ -148,33 +149,69 @@ To access Google Developer Tools:
 All pages include responsive design and css to ensure that the layout is adapted to work on devices of all sizes. No images appear to be pixelated, squashed or stretched to fit the space and there is no overlap of elements.
 
 ### Form Inputs
+Each input element in the form has been tested to ensure that it is the most appropriate input type and that all required information fields prompt a message requiring the user to complete that section before the form can be submitted.
 
 ***Method of Testing***
 
+Once depolyed each input field, button or checkbox has been tested one by one to check:
+- Where text or a combination of numbers and text is required (such as postcode or age of dog in Yrs and or Mths), then input type="text" has been used.
+- Where an email address is required, then input type="email" has been used.
+- Where a number alone is required, then input type="number" has been used.
+- Where a telephone number is required, then input type="tel" has been used. 
+- Where one choice of a selection of defined choices is required, then input type="radio" has been used for each option.
+- Where multiple choices can be made from a selection of options, then input type="checkbox" has been used for each option.
+- That any fields which are required content prompt an automated message to ask the user to complete that field before the form can be submitted.
+
 ***Results***
+
+All expected input types have been used for the appropriate fields
+The expected prompts appear for each of the fields with a 'required' indicator.
+
+If there is no @ symbol included in the email field, this prompts a message to highlight that a recognisable email format must be entered before submitting.
 
 ### Validator Testing
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/) 
+    - Full screenshots available in docs folder.
+
+![Index page HTML validation results](docs/readme-images/index-html-validation.png)
+![Gallery page HTML validation results](docs/readme-images/gallery-html-validation.png)
+![Contact page HTML validation results](docs/readme-images/contact-html-validation.png)
+![Thank-you page HTML validation results](docs/readme-images/thank-you-html-validator.png)
+![404 page HTML validation results](docs/readme-images/404-html-validation.png)
 
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
+![CSS validation results](docs/readme-images/css-validation.png)
+
 - Lighthouse Testing
     - Good scores achieved for all pages. Full screenshots available in docs folder.
+
 ![Summary of all lighthouse results](docs/readme-images/ace-dog-walks-lighthouse-scores.png)
 
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+All pages are working as expected and on devices of all sizes. There are no unfixed bugs known of at the time of submitting for marking. 
 
+A section of code was removed from the Content html and page and css which was intended to enable the user to select a checkbox in order to reveal a hidden repeated 'dog details' sections so they can add a second dog to their enquiry. This was not a fundamental requirement for the success of the form, so the broken code was removed.
+
+Upon investigation online it appears that using Javascript would be ideal for creating this functionality.
 
 ## Deployment
 
+### Gitpod Version Control
+This site was created using the Gitpod cloud development environment before being pushed through to a dedicated repository on Github.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The following commands were used througout development to push the code through to the Github repo:
+
+- git add . - This command was used to add any tracked files to the staging area.
+- git commit -m "Commit message." - This command was used to create a snapshot of the staged area with a short description.
+- git push - This command was used to push the committed changes from the current branch to the remote repository on Github.
+
+### Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab
@@ -187,13 +224,28 @@ The live link can be found here https://sophie-thomson.github.io/ace-dog-walks/
 
 ## Credits
 
-
 ### Content
 
-- Sections of html and css code for the Home Page was taken from the Code Institute Love Running walkthrough project.
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Sections of html and css code for the site-wide header and footer was adapted from the Code Institute Love Running walkthrough project.
+- All icons were imported from [Font Awesome](https://fontawesome.com/)
+- The fonts 'Roboto Slab' and 'Spicy Rice' were imported from [Googlefonts](https://fonts.google.com/)
+- The logo font 'Roadster' was downloaded free for personal use from [fontspace](https://www.fontspace.com/roadster-script-font-f95087) and is designed by [Pentype Studio](https://www.fontspace.com/pentype-studio).
+- The [README document for Taco's Travels](https://github.com/Gareth-McGirr/tacos-travels/blob/main/README.md) was used as a example reference for the structure and layout of Ace Dog Walks README.md
 
 ### Media
 
-- The photos used on the home page and contact form are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the home page and gallery are all provided by Hannah Sharpe (Ace Dog Walks owner), and are her own images.
+- The multi-mockup image to illustrate the responsive design of the site was generated using techsini.com [multi device website mockup generator](https://techsini.com/multi-mockup/index.php)
+
+## Code & Technology
+ The following code, platforms and apps were used in the creation of this site:
+ - HTML
+ - CSS
+ - Gitpod
+ - Github
+ - Font Awesome
+ - Convertio.co
+ - Tinypng
+ - Favicon.io
+ - Balsamiq
+ - Google fonts
