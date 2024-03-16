@@ -207,9 +207,9 @@ This site was created using the Gitpod cloud development environment before bein
 
 The following commands were used througout development to push the code through to the Github repo:
 
-- git add . - This command was used to add any tracked files to the staging area.
-- git commit -m "Commit message." - This command was used to create a snapshot of the staged area with a short description.
-- git push - This command was used to push the committed changes from the current branch to the remote repository on Github.
+- **git add .** - This command was used to add any tracked files to the staging area.
+- **git commit -m "Commit message."** - This command was used to create a snapshot of the staged area with a short description.
+- **git push** - This command was used to push the committed changes from the current branch to the remote repository on Github.
 
 ### Deployment
 
@@ -239,13 +239,12 @@ The live link can be found here https://sophie-thomson.github.io/ace-dog-walks/
 
 ## Code & Technology
  The following code, platforms and apps were used in the creation of this site:
- - HTML
- - CSS
- - Gitpod
- - Github
- - Font Awesome
- - Convertio.co
- - Tinypng
- - Favicon.io
- - Balsamiq
- - Google fonts
+ - HTML - The main language used to build the content of the webpages.
+ - CSS - CSS styling is applied to all areas of the website from within an external file. 
+ - Gitpod - Cloud development environment used to write and preview code before committing.
+ - Github - Github hosts the Ace Dog Walks repository and is where the site is deployed.
+ - Font Awesome - Free icons from font awesome are used in the footer, list items and on a button. 
+ - Convertio.co - To improve performace, all jpg images were converted to webp using [convertio.co](https://convertio.co/jpeg-webp/).
+ - Tinypng - To further reduce the size of images they were 'tinified' using [TinyPNG](https://tinypng.com/).
+ - Favicon.io - The Ace Dog Walks favicon was generated using [Favicon.io](https://favicon.io/favicon-converter/) free generator.
+ - Balsamiq - The responsive layout wireframes for the homepage (index.html) were designed and planned using [Balsamiq](https://balsamiq.com/).
